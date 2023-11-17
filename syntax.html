@@ -1,0 +1,96 @@
+<html>
+<head>
+<meta charset="UTF-8">
+  <meta name="keywords" content="HTML, CSS">
+  <meta name="author" content="Jj">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+p {
+  color: black;
+  font-size: 25px;
+
+}
+
+.myDiv {
+  background-color: lightblue;    
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 15px;
+  
+}
+.myDiv2 {
+  background-color: lightpink;    
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+a { 
+  color:White;
+  background-color: Lightgreen;
+  display:block;
+  width:130px;
+  height:30px;
+  font-size: 20px;
+}
+
+a:hover, a:active {
+  background-color: Orange;
+  color: white;
+}
+
+#click1 {
+  display: none;
+}
+
+#click1:target {
+  display: block;
+  color:red;
+  background-color: indigo;    
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+
+}
+
+#click2 {
+  display: none;
+}
+
+#click2:target {
+  display: block;
+  color:green;
+  background-color: Red;    
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+  border-style: dotted;
+
+}
+
+</style>
+</head>
+<body>
+
+
+<a href="#click1">First Link</a>
+<br>
+
+<a href="#click2">Second Link</a>
+<br>
+<br>
+<div class="myDiv">
+<p id="click1">Div 1 here</p>
+</div>
+
+<div class="myDiv2">
+<p id="click2">Div 2 here</p>
+</div>
+
+</body>
+</html>
